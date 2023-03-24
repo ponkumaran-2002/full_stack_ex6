@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/sendFeedback" method="post">
+        <h3>Bus Ticket Booking System Review </h3>
+        <table>
+            <tr>
+                <td>1.Staff Hospitality</td>
+                <td>
+                    <input type="radio" name="hospitality_r" id="best_hr" value="Best">Best
+                    <input type="radio" name="hospitality_r" id="good_hr" value="Good">Good
+                    <input type="radio" name="hospitality_r" id="poor_hr" value="Poor">Poor
+                </td>
+            </tr>
+            <tr>
+                <td>2. Hygine</td>
+                <td>
+                    <input type="radio" name="hygine_r" id="best_hyr" value="Best">Best
+                    <input type="radio" name="hygine_r" id="good_hyr" value="Good">Good
+                    <input type="radio" name="hygine_r" id="poor_hyr" value="Poor">Poor
+                </td>
+            </tr>
+            <tr>
+                <td>3. Suggestion</td>
+                <td><textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Phone number:</td>
+                <td><input type="text" name="phno" id=""></td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/getResult" method="post">
+
+        <input type="submit" value="It is the best">
+    
+    </form>
+</body>
+</html>
